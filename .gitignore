@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+venv_alignment/
+env/
+ENV/
+*/venv/
+*/env/
+
+# Output files
+subtitles_output/
+subtitles_output/*.txt
+subtitles_output/*.srt
+*.mp3
+*.mp4
+*.wav
+*.webm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Java
+*.class
+bin/
+distrib/

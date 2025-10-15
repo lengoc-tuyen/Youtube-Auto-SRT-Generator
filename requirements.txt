@@ -1,0 +1,40 @@
+# ======================================================
+# CORE REQUIREMENTS FOR WHISPERTIMESYNC / WHISPERHALLU
+# (Dùng để TÁI TẠO môi trường)
+# ======================================================
+
+# YÊU CẦU CỐT LÕI (Nên kiểm tra tính tương thích với Py 3.11)
+torch==2.1.2
+torchaudio==2.1.2
+openai-whisper==20250625
+
+# CÁC GÓI THIẾU YẾU CHO CHỨC NĂNG DỰ ÁN
+pytubefix==10.0.0
+demucs==4.1.0
+ffmpeg-python==0.2.0
+
+# WHISPER/ML DEPENDENCIES
+numpy==1.26.4
+tiktoken==0.12.0
+numba==0.62.1
+llvmlite==0.45.1
+regex==2025.9.18
+tqdm==4.67.1
+
+# PYTORCH & GENERAL DEPENDENCIES
+filelock==3.20.0
+fsspec==2025.9.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+networkx==3.5
+sympy==1.14.0
+mpmath==1.3.0
+typing_extensions==4.15.0
+
+# HTTP/NETWORK DEPENDENCIES
+requests==2.32.5
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11
+urllib3==2.5.0
+more-itertools==10.8.0
